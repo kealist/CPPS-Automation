@@ -59,6 +59,6 @@ foreach file files [
 	]	
 ]
 
-print "Done!"
+ask "Done!"
 
-halt
+quit

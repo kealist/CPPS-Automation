@@ -35,7 +35,7 @@ REBOL[
 
 	;-  / documentation
 	documentation: {
-Modify the file paths to match your directories and run the Rebol script.  You can get Rebol 2 from http://www.rebol.com}
+		Modify the file paths to match your directories and run the Rebol script.  You can get Rebol 2 from http://www.rebol.com}
 	;-  \ documentation
 ]
 
@@ -97,6 +97,6 @@ average-f0c: func [dir output] [
 
 average-f0c wav-dir average-output
 
-alert "done!"
+ask "done!"
 
-halt
+quit

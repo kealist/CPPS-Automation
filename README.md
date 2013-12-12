@@ -12,5 +12,5 @@ CPPS.exe is a Windows only file, so if want to run this Rebol script, you will h
 
 Afterwards, this script looks in the 'segmented' folder and loads each .f0c file that has the calculations from CPPS.exe.   It only pulls the data in the last column which is the CPP value.   It calculates the mean of all the CPP measurements and outputs a tab delimited text file (all-cpp-data.txt) with a structure like this:
 
-filename	CPP-mean
-NB1_aMha.f0c	15.7713333333333
+    filename	CPP-mean
+    NB1_aMha.f0c	15.7713333333333
